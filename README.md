@@ -57,3 +57,5 @@ We carried out the training and testing of the algorithm with the methods specif
 
 Once the training of the model was finished, one could proceed by providing the text file as input to the pre-trained neural 
 network in order to obtain an association from Italian to Italian Sign Language. 
+
+![MicrosoftTeams-image (1)](https://user-images.githubusercontent.com/117382704/200019487-eafe2ef2-80db-4dd1-b8c6-1d90ffe2f6c6.png)
