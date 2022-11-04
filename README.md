@@ -52,3 +52,8 @@ Lastly, the fourth file contains the joints extracted with OpenPose. With respec
 **Training and testing**
 
 We carried out the training and testing of the algorithm with the methods specified in Saunders' paper, of which we report the results in lister/configs.
+
+**Avatar generator**
+
+Once the training of the model was finished, one could proceed by providing the text file as input to the pre-trained neural 
+network in order to obtain an association from Italian to Italian Sign Language. 
