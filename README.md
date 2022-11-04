@@ -21,9 +21,9 @@ This tool allows through the microphone to transcribe what is said: in the secon
 As a reference for our model we were inspired by Ben Saunder's work (https://github.com/BenSaunders27/ProgressiveTransformersSLP) 
 
 1. data collection to create a robust and quantitatively suitable dataset to ensure an efficient model;
-2. data aggregation and preprocessing: we gathered multimedia and text files and cleaned the data;
+2. use of the Openpose open source tool for the extraction of joints from the clips, https://github.com/CMU-Perceptual-Computing-Lab/openpose;
+3. data aggregation and preprocessing: we gathered multimedia and text files and cleaned the data;
 We reported all the core data for training at the following link: https://www.kaggle.com/datasets/lucatorre/listerdata
-3. use of the Openpose open source tool for the extraction of joints from the clips, https://github.com/CMU-Perceptual-Computing-Lab/openpose;
 4. training and testing of the model.
 
 # Data collection 
