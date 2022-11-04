@@ -30,5 +30,6 @@ We reported all the core data for training at the following link: https://www.ka
 In order to crop videos of the Lampadino & Caramella cartoon (season 1, 2) and to isolate the LIS interpreter, we used Avidemux, 
 an open source video editing software. We were able to obtain an average of 40 clips per episode composing a dataset of 2,427 videos.
 
+![datasetimage](https://user-images.githubusercontent.com/117447103/200005909-8470e10a-a4d3-49e5-b2cc-57b957456fd1.png)
 
 # Data aggregation and preprocessing
