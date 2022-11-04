@@ -46,6 +46,6 @@ To train the model, we divided the dataset into training, testing and validation
 The first file contains the file paths of the clips, the second file contains the sign language gloss and the third file contains the Italian gloss. 
 Lastly, the fourth file contains the joints extracted with OpenPose.
 
-![75a1865d-86e1-447b-9778-d40bc458b662](https://user-images.githubusercontent.com/117382704/200009749-8cdea175-7564-49e2-8ce4-a31de96026ca.jpg)
+        ![75a1865d-86e1-447b-9778-d40bc458b662](https://user-images.githubusercontent.com/117382704/200009749-8cdea175-7564-49e2-8ce4-a31de96026ca.jpg)
 
 **Training and testing**
