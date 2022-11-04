@@ -44,8 +44,9 @@ This operation was performed within a virtual machine because it was computation
 
 To train the model, we divided the dataset into training, testing and validation. For each split, four different files were created. 
 The first file contains the file paths of the clips, the second file contains the sign language gloss and the third file contains the Italian gloss. 
-Lastly, the fourth file contains the joints extracted with OpenPose.
+Lastly, the fourth file contains the joints extracted with OpenPose. With respect to the skels data, we have performed a recalculation due to the disparity of joints considered between the work formerly done by Saunders and the data needed by MetaHuman.
 
 ![75a1865d-86e1-447b-9778-d40bc458b662](https://user-images.githubusercontent.com/117382704/200009749-8cdea175-7564-49e2-8ce4-a31de96026ca.jpg)
 
 **Training and testing**
+
