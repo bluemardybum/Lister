@@ -50,4 +50,5 @@ Lastly, the fourth file contains the joints extracted with OpenPose. With respec
 ![75a1865d-86e1-447b-9778-d40bc458b662](https://user-images.githubusercontent.com/117382704/200009749-8cdea175-7564-49e2-8ce4-a31de96026ca.jpg)
 
 **Training and testing**
+
 We carried out the training and testing of the algorithm with the methods specified in Saunders' paper, of which we report the results in lister/configs.
