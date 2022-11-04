@@ -1,8 +1,11 @@
 # Sign Language Translation through Pose Detection (Italian to LIS)
 
 Lister is a translation app implemented by Team 4 of the 5G Academy, created with the aim of creating new forms of inclusion for deaf people.
-In the everyday life of a sign language speaker, even the simplest interaction can be a stressful moment, and for this reason an instant and on-demand translator was imagined to overcome the language barrier between sign and non-sign language speakers. Accessibility is guaranteed by a simple and intuitive interface, which allows the user to create ephemeral or permanent chats in which the translation from Italian (text or audio) to LIS is done via a humanoid avatar. 
+In the everyday life of a sign language speaker, even the simplest interaction can be a stressful moment, and for this reason an instant and on-demand translator was imagined to overcome the language barrier between sign and non-sign language speakers.
+
+Accessibility is guaranteed by a simple and intuitive interface, which allows the user to create ephemeral or permanent chats in which the translation from Italian (text or audio) to LIS is done via a humanoid avatar. 
 The accuracy of the translation is ensured by the refinement of the Machine and Deep Learning techniques used to train the neural network that associates word and sign: thanks to a vast multimedia LIS dataset provided by Animundi (RAI), the digitisation of a sign vocabulary, the first goal of the project, was made possible.
+
 In order to make the algorithm autonomous in the recognition of the linguistic components and the subsequent translation via avatar, the technical support of the Urban/Eco interdepartmental research centre was essential: although Lister is a simplification tool, it is in fact its great technological complexity that makes it possible.
 
 # Pipeline Steps
