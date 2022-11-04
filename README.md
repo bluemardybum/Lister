@@ -37,8 +37,11 @@ an open source video editing software. We were able to obtain an average of 40 c
 Using the open source tool Openpose, we extracted the joints for all the clips previously cropped.
 This operation was performed within a virtual machine because it was computationally very onerous.
 
+![MicrosoftTeams-image](https://user-images.githubusercontent.com/117382704/200009464-5c54a375-1cd4-4b5a-9b5e-2bbeb57bf581.png)
+
 
 **Data aggregation and preprocessing**
+
 To train the model, we divided the dataset into training, testing and validation. For each split, four different files were created. 
 The first file contains the file paths of the clips, the second file contains the sign language gloss and the third file contains the Italian gloss. 
 Lastly, the fourth file contains the joints extracted with OpenPose.
