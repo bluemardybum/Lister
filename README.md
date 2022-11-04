@@ -17,7 +17,7 @@ The application's ability to perform a translation goes through several steps, t
 This tool allows through the microphone to transcribe what is said: in the second step, the model will be able to draw from the transcribed text file in order to predict associations between glosses and skels (poses). In the third step, the skeleton files are supplied to the MetaHuman software, a complete framework that creates highly realistic human characters, which will interpret them and generate an avatar that can perform lis translation.
 
 
-# Our workflow followed these stages:
+# Workflow stages
 As a reference for our model we were inspired by Ben Saunder's work (https://github.com/BenSaunders27/ProgressiveTransformersSLP) 
 
 1. data collection to create a robust and quantitatively suitable dataset to ensure an efficient model;
@@ -26,5 +26,9 @@ We reported all the core data for training at the following link: https://www.ka
 3. use of the Openpose open source tool for the extraction of joints from the clips, https://github.com/CMU-Perceptual-Computing-Lab/openpose;
 4. training and testing of the model.
 
+# Data collection 
+In order to crop videos of the Lampadino & Caramella cartoon (season 1, 2) and to isolate the LIS interpreter, we used Avidemux, 
+an open source video editing software. We were able to obtain an average of 40 clips per episode composing a dataset of 2,427 videos.
 
 
+# Data aggregation and preprocessing
