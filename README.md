@@ -26,10 +26,21 @@ As a reference for our model we were inspired by Ben Saunder's work (https://git
 We reported all the core data for training at the following link: https://www.kaggle.com/datasets/lucatorre/listerdata
 4. training and testing of the model.
 
-# Data collection 
+**Data collection** 
 In order to crop videos of the Lampadino & Caramella cartoon (season 1, 2) and to isolate the LIS interpreter, we used Avidemux, 
 an open source video editing software. We were able to obtain an average of 40 clips per episode composing a dataset of 2,427 videos.
 
 ![datasetimage](https://user-images.githubusercontent.com/117447103/200005909-8470e10a-a4d3-49e5-b2cc-57b957456fd1.png)
 
-# Data aggregation and preprocessing
+**OpenPose and joint extraction**
+
+Using the open source tool Openpose, we extracted the joints for all the clips previously cropped.
+This operation was performed within a virtual machine because it was computationally very onerous.
+
+
+**Data aggregation and preprocessing**
+To train the model, we divided the dataset into training, testing and validation. For each split, four different files were created. 
+The first file contains the file paths of the clips, the second file contains the sign language gloss and the third file contains the Italian gloss. 
+Lastly, the fourth file contains the joints extracted with OpenPose.
+
+**Training and testing**
