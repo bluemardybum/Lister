@@ -8,8 +8,6 @@ The accuracy of the translation is ensured by the refinement of the Machine and 
 
 In order to make the algorithm autonomous in the recognition of the linguistic components and the subsequent translation via avatar, the technical support of the Urban/Eco interdepartmental research centre was essential: although Lister is a simplification tool, it is in fact its great technological complexity that makes it possible.
 
-As a reference for our model we were inspired by Ben Saunder's work (https://github.com/BenSaunders27/ProgressiveTransformersSLP) 
-
 # Pipeline Steps
 
 ![pipeline_img](https://user-images.githubusercontent.com/117447103/199977486-4b62b49e-5650-40ba-8512-70003a6e3837.jpg)
@@ -18,6 +16,7 @@ The application's ability to perform a translation goes through several steps, t
 
 
 # Our workflow followed these stages:
+As a reference for our model we were inspired by Ben Saunder's work (https://github.com/BenSaunders27/ProgressiveTransformersSLP) 
 
 1. data collection to create a robust and quantitatively suitable dataset to ensure an efficient model;
 2. data aggregation and preprocessing: we gathered multimedia and text files and cleaned the data;
