@@ -11,9 +11,14 @@ In order to make the algorithm autonomous in the recognition of the linguistic c
 
 The application's ability to perform a translation goes through several steps, the first of which is the transcription of the audio input. For the implementation of the first step, we used the open source tool provided by Nvidia NeMo (https://github.com/NVIDIA/NeMo). This tool allows through the microphone to transcribe what is said: in the second step, the model will be able to draw from the transcribed text file in order to predict associations between glosses and skels (poses). In the third step, the skeleton files are supplied to the MetaHuman software, a complete framework that creates highly realistic human characters, which will interpret them and generate an avatar that can perform lis translation.
 
+As a reference for our model we were inspired by Ben Saunder's work (https://github.com/BenSaunders27/ProgressiveTransformersSLP) 
+
 # Our workflow followed these stages:
+
 1. data collection to create a robust and quantitatively suitable dataset to ensure an efficient model;
 2. data aggregation and preprocessing: we gathered multimedia and text files and cleaned the data;
 We reported all the core data for training at the following link: https://www.kaggle.com/datasets/lucatorre/listerdata
 3. use of the Openpose open source tool for the extraction of joints from the clips;
 4. training and testing of the model.
+
+
